@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">AppAtt</string>
-
+    <string name="btnTomarLista">TOMAR LISTA</string>
+    <string name="btnEdt">EDITAR LISTA</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 </resources>
