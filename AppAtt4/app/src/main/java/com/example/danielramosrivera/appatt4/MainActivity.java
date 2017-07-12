@@ -40,7 +40,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
-    //Variables del JSON
+    //Variables del JSON :) si se actualizo ;) 
     ListView listaJson;
     Clientes cliente;
     ObtenerWebService hiloconexion;
