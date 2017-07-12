@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.danielramosrivera.appatt4.editLista">
+
+    <TextView
+        android:id="@+id/tvEditGrupos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <Spinner
+        android:id="@+id/spnEditGrupos"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="82dp"
+        android:layout_below="@+id/tvEditGrupos"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp" />
+
+    <Button
+        android:id="@+id/bEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bu"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="425dp"
+        android:layout_alignBaseline="@+id/bEditGuardar"
+        android:layout_alignBottom="@+id/bEditGuardar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp" />
+
+    <Button
+        android:id="@+id/bEditGuardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="425dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/spnEditGrupos"
+        android:layout_marginBottom="57dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bEditar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="164dp">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <ListView
+              android:id="@+id/lvEditAgregadps"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+             />
+      </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tvEditAgregados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scrollView2"
+        android:layout_alignStart="@+id/scrollView2"
+        android:layout_marginBottom="28dp"
+        android:text="TextView" />
+
+</RelativeLayout>

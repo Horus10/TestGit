@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.danielramosrivera.appatt4.opciones">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/bLista"
+        android:layout_width="241dp"
+        android:layout_height="96dp"
+        android:text="TOMAR LISTA"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="66dp"
+        android:layout_marginTop="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/bEditLista"
+        android:layout_width="245dp"
+        android:layout_height="101dp"
+        android:text="EDITAR LISTA \n(OPC inhabilitada)"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="258dp"
+        android:layout_marginTop="79dp"
+        android:layout_below="@+id/bLista"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
