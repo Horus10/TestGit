@@ -26,6 +26,8 @@
             android:theme="@style/AppTheme.Dark"/>
         <activity android:name=".editLista"
             android:theme="@style/AppTheme.Dark"/>
+        
+         <receiver android:name=".Notificaciones"/>
     </application>
 
 </manifest>
